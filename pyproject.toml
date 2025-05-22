@@ -1,0 +1,27 @@
+[project]
+name = "goldcode-python-poc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "p.ormai@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn[standard] (>=0.34.2,<0.35.0)",
+    "jinja2 (==2.8)",
+    "known (>=0.0.31,<0.0.32)",
+    "vulnerabilities (>=0.0.5,<0.0.6)",
+    "pyyaml (==5.1)",
+    "with (>=0.0.7,<0.0.8)",
+    "some (>=2.0,<3.0)",
+    "of (>=1.0.1,<2.0.0)",
+    "the (>=0.1.5,<0.2.0)",
+    "standard (>=1.0.3,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

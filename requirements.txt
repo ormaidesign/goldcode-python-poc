@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+Jinja2==2.8 # Known XSS vulnerabilities if not configured carefully, older version
+PyYAML==5.1 # Known for unsafe deserialization with yaml.load()
+requests==2.18.0 # Older version with some known CVEs
+sqlite3 # This is part of the Python standard library, listed for clarity
